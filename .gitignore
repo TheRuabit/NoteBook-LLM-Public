@@ -1,0 +1,19 @@
+# 本机依赖与运行日志
+node_modules/
+*.log
+
+# 本机配置与个人文献
+config.json
+.env
+.env.*
+!.env.example
+Papers/
+Paper-Index.md
+Paper-index.md
+.mimocode
+
+# 自测输出与旧版本地批注记录
+.selftest-annotated.pdf
+.selftest-library/
+*.annotations.json
+*.annotations-baseline
